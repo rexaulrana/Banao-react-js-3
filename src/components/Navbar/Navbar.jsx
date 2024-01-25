@@ -9,28 +9,35 @@ import star from "../../assets/images/Polygon 3.png";
 import bookmark from "../../assets/images/bookmark_black_24dp 1.png";
 import notification from "../../assets/images/notifications_black_24dp 1.png";
 import cart from "../../assets/images/Product 3.png";
+import searchIcon from "../../assets/images/search-icon.png";
 const Navbar = () => {
   return (
-    <nav className="navbar border-nav navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar border-nav navbar-expand-md bg-body-tertiary">
       <div className="container-xxl mx-auto">
-        <a className="navbar-brand" href="/">
-          <img className="col-sm-11 " src={logo} alt="" />
+        <a className="navbar-brand">
+          <img className="w-50 me-5" src={logo} alt="" />
+          <button className="d-sm-none border-0" type="submit">
+            <img src={searchIcon} alt="" />
+          </button>
+          <a className="nav-item  ms-3 me-3">
+            <img className="d-sm-none" src={notification} alt="" />
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
         <div className="collapse navbar-collapse" id="navbarScroll">
           <form className="d-flex" role="search">
             <input
-              className="form-control me-1 "
+              className="form-control me-1"
               type="search"
               placeholder="Search"
               aria-label="Search"
@@ -39,7 +46,7 @@ const Navbar = () => {
               <IoIosSearch></IoIosSearch>
             </button>
           </form>
-          <ul className="navbar-nav  mx-2 my-lg-0 navbar-nav-scroll">
+          <ul className="navbar-nav   mx-2 my-lg-0 navbar-nav-scroll">
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -56,26 +63,33 @@ const Navbar = () => {
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Item
+                    People - Community
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    item
+                    Places - Venues
+                  </a>
+                </li>
+                <li></li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Programs - Events
                   </a>
                 </li>
                 <li>
-                  {" "}
-                  <hr className="dropdown-divider" />{" "}
+                  <a className="dropdown-item" href="#">
+                    Products - Store
+                  </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    items
+                    Blogs
                   </a>
                 </li>
               </ul>
             </li>
-            <li className="nav-item"></li>
+
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -84,7 +98,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span className="me-1">
+                <span className="ms-1 me-1">
                   <img src={star} alt="" />
                 </span>
                 Hobbies
@@ -111,17 +125,19 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <a className="nav-item mt-1 ms-3 me-3">
+          </ul>
+          <div className="d-flex flex-md-row ">
+            <a className="nav-item mt-1 ms-3 ">
               <img src={bookmark} alt="" />
             </a>
-            <a className="nav-item mt-1 ms-3">
+            <a className="nav-item mt-1 ms-2 ">
               <img src={notification} alt="" />
             </a>
-            <a className="nav-item mt-1 ms-3 pb-2">
+            <a className="nav-item mt-1 ms-2">
               <img src={cart} alt="" />
             </a>
-            <button className="ms-4 px-5">Sign In</button>
-          </ul>
+            <button className="px-4 ms-3 rounded ">Sign In</button>
+          </div>
         </div>
       </div>
     </nav>
