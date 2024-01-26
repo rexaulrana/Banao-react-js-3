@@ -1,0 +1,94 @@
+.firstDiv {
+  border: 2px solid purple;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  width: 360px;
+  height: 210px;
+}
+.firstDiv:hover {
+  background-color: purple;
+  transition: background-color 0.3s eases;
+  color: white;
+}
+
+.first-btn:hover {
+  background-color: purple;
+  color: white;
+  color: white;
+}
+.first-img:hover {
+  color: white;
+}
+
+/* 2 */
+.secondDiv {
+  width: 360px;
+  height: 210px;
+  border: 2px solid #77933c;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.secondDiv:hover {
+  background-color: #77933c;
+  transition: background-color 0.3s eases;
+  color: white;
+}
+
+.second-btn:hover {
+  background-color: #77933c;
+  color: white;
+}
+.second-img:hover {
+  color: white;
+}
+/* 3 */
+.thirdDiv {
+  width: 360px;
+  height: 210px;
+  border: 2px solid #c0504d;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.thirdDiv:hover {
+  background-color: #c0504d;
+  transition: background-color 0.3s eases;
+  color: white;
+}
+
+.third-btn:hover {
+  background-color: #c0504d;
+  color: white;
+}
+.third-img:hover {
+  color: white;
+}
+/* 4*/
+.forthDiv {
+  width: 360px;
+  height: 210px;
+  border: 2px solid #0096c8;
+  padding: 17px;
+  background-color: white;
+  cursor: pointer;
+}
+.forthDiv:hover {
+  background-color: #0096c8;
+  transition: background-color 0.3s eases;
+  color: white;
+}
+
+.forth-btn:hover {
+  background-color: #0096c8;
+  color: white;
+}
+.forth-img:hover {
+  background-color: white;
+}
+
+.btn-login {
+  background-color: purple;
+  color: white;
+}

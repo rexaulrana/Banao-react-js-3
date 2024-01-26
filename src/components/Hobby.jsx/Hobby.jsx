@@ -2,7 +2,7 @@ import "./Hobby.css";
 
 const Hobby = () => {
   return (
-    <div className="me-5">
+    <div className="me-5 col-sm-5">
       <h3 className="poppins-semibold ">
         Explore your hobby {""}
         <span className="hobby">hobby </span>

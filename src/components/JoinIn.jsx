@@ -18,7 +18,7 @@ const JoinIn = () => {
         </button>
       </div>
       <div className="mt-4 text-center mb-4">
-        <h4>------------ Or Connect with--------------</h4>
+        <h4>------ Or Connect with -----</h4>
       </div>
       <div>
         <input
@@ -44,8 +44,8 @@ const JoinIn = () => {
         <span className="h6"> our Terms of Service {""}</span>
         and <span className="h6">Privacy Policy.</span>
       </div>
-      <button className="h6 px-4 w-100 py-2 mt-3  rounded border border-primary-subtle">
-        Continue
+      <button className="btn-login h6 px-4 w-100 py-2 mt-3  rounded border border-primary-subtle">
+        Agree and Continue
       </button>
     </div>
   );

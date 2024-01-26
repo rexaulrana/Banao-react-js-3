@@ -21,7 +21,7 @@ const SignIn = () => {
         </button>
       </div>
       <div className="mt-3 text-center mb-3">
-        <h4>---------- Or Connect with ----------</h4>
+        <h4>---- Or Connect with ---</h4>
       </div>
       <div>
         <input
@@ -55,7 +55,7 @@ const SignIn = () => {
 
         <a href="">Forgot Password?</a>
       </div>
-      <button className="h6 px-4 w-100 py-2 mt-3  rounded border border-primary-subtle">
+      <button className=" btn-login h6 px-4 w-100 py-2 mt-3  rounded border border-primary-subtle">
         Continue
       </button>
     </div>

@@ -126,7 +126,7 @@ const Navbar = () => {
               </ul>
             </li>
           </ul>
-          <div className="d-flex flex-md-row ">
+          <div className="d-flex flex-md-row">
             <a className="nav-item mt-1 ms-3 ">
               <img src={bookmark} alt="" />
             </a>

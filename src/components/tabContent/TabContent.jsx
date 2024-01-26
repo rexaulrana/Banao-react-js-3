@@ -4,7 +4,7 @@ import "react-tabs/style/react-tabs.css";
 import JoinIn from "../JoinIn";
 const TabContent = () => {
   return (
-    <div>
+    <div className="tabContent col-sm-6">
       <Tabs>
         <TabList className=" border-none">
           <Tab>

@@ -1,6 +1,9 @@
+import Footer from "./components/Footer";
 import Hobby from "./components/Hobby.jsx/Hobby";
 import Img from "./components/Img";
 import Navbar from "./components/Navbar/Navbar";
+import Testimonials from "./components/Testimonials/Testimonials";
+import YourListing from "./components/YourListing/YourListing";
 import TabContent from "./components/tabContent/TabContent";
 
 function App() {
@@ -12,6 +15,9 @@ function App() {
         <TabContent></TabContent>
       </div>
       <Img></Img>
+      <YourListing></YourListing>
+      <Testimonials></Testimonials>
+      <Footer></Footer>
     </div>
   );
 }
